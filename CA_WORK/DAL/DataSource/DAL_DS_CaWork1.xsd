@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DAL_DS_CaWork1" targetNamespace="http://tempuri.org/DAL_DS_CaWork1.xsd" xmlns:mstns="http://tempuri.org/DAL_DS_CaWork1.xsd" xmlns="http://tempuri.org/DAL_DS_CaWork1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DAL_DS_CaWork1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DAL_DS_CaWork1" msprop:Generator_UserDSName="DAL_DS_CaWork1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblJobDetails" msprop:Generator_TableClassName="tblJobDetailsDataTable" msprop:Generator_TableVarName="tabletblJobDetails" msprop:Generator_RowChangedName="tblJobDetailsRowChanged" msprop:Generator_TablePropName="tblJobDetails" msprop:Generator_RowDeletingName="tblJobDetailsRowDeleting" msprop:Generator_RowChangingName="tblJobDetailsRowChanging" msprop:Generator_RowEvHandlerName="tblJobDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblJobDetailsRowDeleted" msprop:Generator_RowClassName="tblJobDetailsRow" msprop:Generator_UserTableName="tblJobDetails" msprop:Generator_RowEvArgName="tblJobDetailsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cat" msprop:Generator_ColumnVarNameInTable="columncat" msprop:Generator_ColumnPropNameInRow="cat" msprop:Generator_ColumnPropNameInTable="catColumn" msprop:Generator_UserColumnName="cat" type="xs:string" minOccurs="0" />
+              <xs:element name="sub" msprop:Generator_ColumnVarNameInTable="columnsub" msprop:Generator_ColumnPropNameInRow="sub" msprop:Generator_ColumnPropNameInTable="subColumn" msprop:Generator_UserColumnName="sub" type="xs:string" minOccurs="0" />
+              <xs:element name="spec" msprop:Generator_ColumnVarNameInTable="columnspec" msprop:Generator_ColumnPropNameInRow="spec" msprop:Generator_ColumnPropNameInTable="specColumn" msprop:Generator_UserColumnName="spec" type="xs:string" minOccurs="0" />
+              <xs:element name="extc" msprop:Generator_ColumnVarNameInTable="columnextc" msprop:Generator_ColumnPropNameInRow="extc" msprop:Generator_ColumnPropNameInTable="extcColumn" msprop:Generator_UserColumnName="extc" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="sd" msprop:Generator_ColumnVarNameInTable="columnsd" msprop:Generator_ColumnPropNameInRow="sd" msprop:Generator_ColumnPropNameInTable="sdColumn" msprop:Generator_UserColumnName="sd" type="xs:string" minOccurs="0" />
+              <xs:element name="ed" msprop:Generator_ColumnVarNameInTable="columned" msprop:Generator_ColumnPropNameInRow="ed" msprop:Generator_ColumnPropNameInTable="edColumn" msprop:Generator_UserColumnName="ed" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="despRate" msprop:Generator_ColumnVarNameInTable="columndespRate" msprop:Generator_ColumnPropNameInRow="despRate" msprop:Generator_ColumnPropNameInTable="despRateColumn" msprop:Generator_UserColumnName="despRate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblAllAccounts" msprop:Generator_TableClassName="tblAllAccountsDataTable" msprop:Generator_TableVarName="tabletblAllAccounts" msprop:Generator_TablePropName="tblAllAccounts" msprop:Generator_RowDeletingName="tblAllAccountsRowDeleting" msprop:Generator_RowChangingName="tblAllAccountsRowChanging" msprop:Generator_RowEvHandlerName="tblAllAccountsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblAllAccountsRowDeleted" msprop:Generator_UserTableName="tblAllAccounts" msprop:Generator_RowChangedName="tblAllAccountsRowChanged" msprop:Generator_RowEvArgName="tblAllAccountsRowChangeEvent" msprop:Generator_RowClassName="tblAllAccountsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code" msprop:Generator_ColumnVarNameInTable="columncode" msprop:Generator_ColumnPropNameInRow="code" msprop:Generator_ColumnPropNameInTable="codeColumn" msprop:Generator_UserColumnName="code" type="xs:string" minOccurs="0" />
+              <xs:element name="desc" msprop:Generator_ColumnVarNameInTable="columndesc" msprop:Generator_ColumnPropNameInRow="desc" msprop:Generator_ColumnPropNameInTable="descColumn" msprop:Generator_UserColumnName="desc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblMainJob" msprop:Generator_TableClassName="tblMainJobDataTable" msprop:Generator_TableVarName="tabletblMainJob" msprop:Generator_RowChangedName="tblMainJobRowChanged" msprop:Generator_TablePropName="tblMainJob" msprop:Generator_RowDeletingName="tblMainJobRowDeleting" msprop:Generator_RowChangingName="tblMainJobRowChanging" msprop:Generator_RowEvHandlerName="tblMainJobRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMainJobRowDeleted" msprop:Generator_RowClassName="tblMainJobRow" msprop:Generator_UserTableName="tblMainJob" msprop:Generator_RowEvArgName="tblMainJobRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Jno" msprop:Generator_ColumnVarNameInTable="columnJno" msprop:Generator_ColumnPropNameInRow="Jno" msprop:Generator_ColumnPropNameInTable="JnoColumn" msprop:Generator_UserColumnName="Jno" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="depRate" msprop:Generator_ColumnVarNameInTable="columndepRate" msprop:Generator_ColumnPropNameInRow="depRate" msprop:Generator_ColumnPropNameInTable="depRateColumn" msprop:Generator_UserColumnName="depRate" type="xs:string" minOccurs="0" />
+              <xs:element name="jcat" msprop:Generator_ColumnVarNameInTable="columnjcat" msprop:Generator_ColumnPropNameInRow="jcat" msprop:Generator_ColumnPropNameInTable="jcatColumn" msprop:Generator_UserColumnName="jcat" type="xs:string" minOccurs="0" />
+              <xs:element name="sdate" msprop:Generator_ColumnVarNameInTable="columnsdate" msprop:Generator_ColumnPropNameInRow="sdate" msprop:Generator_ColumnPropNameInTable="sdateColumn" msprop:Generator_UserColumnName="sdate" type="xs:string" minOccurs="0" />
+              <xs:element name="edate" msprop:Generator_ColumnVarNameInTable="columnedate" msprop:Generator_ColumnPropNameInRow="edate" msprop:Generator_ColumnPropNameInTable="edateColumn" msprop:Generator_UserColumnName="edate" type="xs:string" minOccurs="0" />
+              <xs:element name="accNo" msprop:Generator_ColumnVarNameInTable="columnaccNo" msprop:Generator_ColumnPropNameInRow="accNo" msprop:Generator_ColumnPropNameInTable="accNoColumn" msprop:Generator_UserColumnName="accNo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblJobCat" msprop:Generator_TableClassName="tblJobCatDataTable" msprop:Generator_TableVarName="tabletblJobCat" msprop:Generator_TablePropName="tblJobCat" msprop:Generator_RowDeletingName="tblJobCatRowDeleting" msprop:Generator_RowChangingName="tblJobCatRowChanging" msprop:Generator_RowEvHandlerName="tblJobCatRowChangeEventHandler" msprop:Generator_RowDeletedName="tblJobCatRowDeleted" msprop:Generator_UserTableName="tblJobCat" msprop:Generator_RowChangedName="tblJobCatRowChanged" msprop:Generator_RowEvArgName="tblJobCatRowChangeEvent" msprop:Generator_RowClassName="tblJobCatRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jCode" msprop:Generator_ColumnVarNameInTable="columnjCode" msprop:Generator_ColumnPropNameInRow="jCode" msprop:Generator_ColumnPropNameInTable="jCodeColumn" msprop:Generator_UserColumnName="jCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
